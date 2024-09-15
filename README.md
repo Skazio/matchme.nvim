@@ -1,6 +1,6 @@
 # matchme.nvim
 
-Visual select the matching string in the current buffer when moving arround in visual mode (character).
+Visual select the matching string(s) in the current buffer when moving arround in visual mode (character).
 
 
 ## Known issues
