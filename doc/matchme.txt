@@ -1,0 +1,38 @@
+================================================================================
+                                                                *matchme.nvim*
+
+This plugin visually highlights the matching string(s) in the current buffer
+when selecting in charwise-visual mode.
+
+The highlighting does not work in:
+- linewise-visual mode
+- blockwise-visual mode
+
+Note:~
+    This plugin does not require any `setup({})` function call, having the plugin
+    installed is enough for it to run in the background (with the help of vim
+    |autocommands|).
+
+================================================================================
+1. Installation                                         *matchme-installation*
+
+Using lazy.nvim, add this to your plugin configuration file:
+>lua
+    {
+        "skazio/matchme.nvim"
+    }
+
+================================================================================
+2. Usage                                                       *matchme-usage*
+
+Enter charwise-visual mode by pressing |v| (when in normal mode) and start
+highlighting some text, |matchme.nvim| will automatically highlight the matching
+string(s) in the current buffer.
+
+================================================================================
+3. Requirements                                         *matchme-requirements*
+
+|matchme.nvim| has only been tested on nvim >= 0.10.
+
+vim:tw=78:ts=8:ft=help:norl:
+
