@@ -19,7 +19,10 @@ Note:~
 Using lazy.nvim, add this to your plugin configuration file:
 >lua
     {
-        "skazio/matchme.nvim"
+        "skazio/matchme.nvim",
+        config = function()
+            require("matchme")
+        end,
     }
 
 ================================================================================
