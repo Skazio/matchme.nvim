@@ -14,7 +14,7 @@ This plugin visually highlights the matching string(s) in the current buffer whe
 
 ## Documentation
 
-See `:help matchme.nvim`, or `skazio/matchme.nvim/docs/matchme.txt`
+See `:help matchme.nvim`, or `skazio/matchme.nvim/doc/matchme.txt`
 
 ## Known issues
 
